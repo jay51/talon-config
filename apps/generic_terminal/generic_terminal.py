@@ -14,6 +14,9 @@ class Actions:
 
     def terminal_change_directory(path: str):
         """Lists change directory"""
+        # for i in path.split(" "):
+        #     print("************", path)
+        actions.user.paste(f"cd {'/'.join(path.split(' '))}")
 
     def terminal_change_directory_root():
         """Root of current drive"""

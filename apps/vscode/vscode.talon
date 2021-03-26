@@ -197,3 +197,5 @@ select less: user.vscode("editor.action.smartSelect.shrink")
 select (more|this): user.vscode("editor.action.smartSelect.expand")
   
   
+switch terminal: key(ctrl-`)
+save: key(ctrl-s)
